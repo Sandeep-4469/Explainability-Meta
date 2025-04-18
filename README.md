@@ -23,15 +23,15 @@ This implementation extends the basic Prototypical Network by incorporating an a
 *   **Modular Code:** Organized into separate Python files for configuration, data utilities, model definition, training logic, and visualization.
 
 ## File Structure
-├── config.py # All configuration parameters and constants
+├── config.py # All configuration parameters and constants\
 ├── data_utils.py # CUB data parsing, dataset class, meta-split logic\
-├── sampler.py # EpisodeSampler class for few-shot batches
+├── sampler.py # EpisodeSampler class for few-shot batches\
 ├── model.py # ResNetEncoderWithDropout and ExplainablePrototypicalNet classes\
 ├── training.py # Training loop, evaluation functions, optimizer setup, loss class\
-├── visualization.py # Explanation visualization logic
-├── main.py # Main script to run the entire workflow
-├── requirements.txt # Python package dependencies
-└── README.md # This file
+├── visualization.py # Explanation visualization logic\
+├── main.py # Main script to run the entire workflow\
+├── requirements.txt # Python package dependencies\
+└── README.md 
 
 
 
